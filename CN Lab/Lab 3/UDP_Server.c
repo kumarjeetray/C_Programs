@@ -30,11 +30,11 @@ main()
         printf("\nServer:");
         gets(b2);
         sendto(s,b2,sizeof(b2),0,(struct sockaddr *) &client,n);
-        if (flag == 1)
-        {
-          close(s);
-        }
               
+    }
+    if (flag == 1)
+    {
+       close(s);
     }
     
 }
