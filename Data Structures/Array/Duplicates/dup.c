@@ -25,7 +25,7 @@ int main()
         {
             if(*(arr+i) == *(arr+j))
             {
-				rep++;
+		rep++;
                 count++;
                 break;
             }
@@ -35,7 +35,7 @@ int main()
             {
             	check=rep;
             	num=*(arr+i);
-			}
+	    }
 		rep=0;
     }
 	printf("Total number of duplicate elements found in array = %d",count);
